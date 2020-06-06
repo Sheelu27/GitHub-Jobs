@@ -1,4 +1,7 @@
 # masai-sprint-3
+![](Resources/github.PNG)
+
+
 I designed and made the github job searcher.
 It takes two inputs(preferred language for the job and location) from User.
 It serches via url that adds those user inputs to the search API and fetches the response accordingly.
