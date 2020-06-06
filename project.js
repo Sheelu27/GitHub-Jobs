@@ -30,17 +30,27 @@ window.addEventListener("load", function(){
                 img.setAttribute("src",data[i].company_logo) 
                 
                 var name = document.createElement('p')
-                name.innerHTML = "Company :"+" "+  data[i].company
+                name.innerHTML = "Company :"+" "+  data[i].company+"<hr>"
 
                 var title = document.createElement('p')
-                title.innerHTML= "Title :"+" "+data[i].title
+                title.innerHTML= "Title :"+" "+data[i].title+"<hr>"
 
                 var type = document.createElement('p')
-                type.innerHTML= "Type :"+" "+data[i].type
+                type.innerHTML= "Type :"+" "+data[i].type+"<hr>"
+
+                var description =document.createElement('div')
+                description.innerHTML = "<p>Description:</p>"+"\n"+data[i].description+"<hr>"
+
+                var Location = document.createElement('p')
+                
+                Location.innerHTML= "Location :"+" "+data[i].location+"<hr>"
+                var how_to_apply = document.createElement('p')
+                how_to_apply.style.color = "green"
+                how_to_apply.innerHTML= "Wondering, How to Apply?? :"+"<hr>"+data[i].how_to_apply+"<hr>"
 
                 
                 div1.append(img)
-                div2.append(title,name,type)
+                div2.append(title,name,type,description,Location,how_to_apply)
                 div.append(div1,div2)
                 result.append(div)
             }

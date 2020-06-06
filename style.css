@@ -23,20 +23,24 @@ body{
     width:10%;
     background-color: floralwhite;
     height:7%;
+    border-radius:5%;
     
 }
 #language{
     margin-left: 30%;
     width:25%;
     background-color: floralwhite;
-    height:7%
+    height:7%;
+    border-radius:5%;
+    
     
 }
 #container button{
     background-color: brown;
     color:white;
     height:7%;
-    width:7%
+    width:7%;
+    border-radius:5%;
 }
 
 h1{
@@ -63,6 +67,7 @@ h1{
     margin-bottom: 2%;
     color:black;
     background-color:whitesmoke;
+    border-radius: 1%;
 }
 #res > * > div:nth-child(1){
     margin-right: 2%;
@@ -71,12 +76,19 @@ h1{
 #res > * > div:nth-child(2){
     display: flex;
     flex-direction:column;
-    font-size: 25px;
-    font-weight: 200;
-    font-family: 'Courier New, Courier, monospace';
+    
     
 }
 
 img{
     width: 100%;
+    
+}
+
+p{
+    margin:0.2%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: teal;
+    
 }
