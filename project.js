@@ -42,6 +42,7 @@ window.addEventListener("load", function(){
                 type.innerHTML= "Type :"+" "+data[i].type+"<hr>"
 
                 var description =document.createElement('div')
+                description.style.fontFamily ="Times New Roman"
                 description.innerHTML = "<p>Description:</p>"+"\n"+data[i].description+"<hr>"
 
                 var Location = document.createElement('p')

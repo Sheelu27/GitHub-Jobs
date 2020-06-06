@@ -5,11 +5,11 @@ html{
 
 
 body{
-    background-image: url(https://github.githubassets.com/images/modules/open_graph/github-octocat.png);
+    background-image: url(https://miro.medium.com/max/1400/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: whitesmoke;
+    
     border:2px solid whitesmoke;
     padding:1%;
 
@@ -22,25 +22,29 @@ body{
 #location{
     width:10%;
     background-color: floralwhite;
-    height:7%;
-    border-radius:5%;
+    padding:0.5%;
+    border-radius:5px;
+    border:1px solid darkgray
     
 }
 #language{
     margin-left: 30%;
     width:25%;
     background-color: floralwhite;
-    height:7%;
-    border-radius:5%;
-    
-    
+    padding:0.5%;
+    border-radius:5px;
+    border:1px solid darkgray;
 }
+    
+    
+
 #container button{
-    background-color: brown;
+    background-color:darkgray;
     color:white;
-    height:7%;
+    padding:0.5%;
     width:7%;
-    border-radius:5%;
+    border-radius:5px;
+    border:1px solid darkgray;
 }
 
 h1{
@@ -48,10 +52,10 @@ h1{
     margin:auto;
     text-align:center;
     font-family:'Times New Roman', Times, serif;
-    color:rgb(85, 2, 2);
+    color:rgb(9, 8, 19);
     background-color:darkgray;
     margin-bottom: 15px;
-    border-radius: 2%;
+    border-radius: 2px;
     
 }
 
@@ -70,7 +74,7 @@ h1{
     margin-bottom: 2%;
     color:rgb(22, 39, 87);
     background-color:whitesmoke;
-    border-radius: 0.5%;
+    border-radius: 2px;
     
 }
 #res > * > div:nth-child(1){
