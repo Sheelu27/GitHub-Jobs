@@ -1,7 +1,4 @@
-img{
-    width:30%;
-    
-}
+
 html{
     height:100%
 }
@@ -55,6 +52,7 @@ h1{
 
 #res{
     margin-left: 30%;
+
 }
 #res > *{
     display: flex;
@@ -63,11 +61,22 @@ h1{
     border: 1px solid black;
     padding: 1%;
     margin-bottom: 2%;
+    color:black;
+    background-color:whitesmoke;
 }
 #res > * > div:nth-child(1){
     margin-right: 2%;
     width: 30%;
 }
+#res > * > div:nth-child(2){
+    display: flex;
+    flex-direction:column;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Courier New, Courier, monospace';
+    
+}
+
 img{
     width: 100%;
 }

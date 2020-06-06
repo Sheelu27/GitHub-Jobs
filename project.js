@@ -18,31 +18,34 @@ window.addEventListener("load", function(){
     })
     function display_result(data){
         var result = document.getElementById('res')
-        var div = document.createElement('div')
+        
         
             for (var i = 0;i<data.length;i++){
-                var div1 = document.createElement('div')
-                var logo = document.getElementById('div')
                 
-                var div = document.getElementById('div')
+                
+                var div = document.createElement('div')
+                var div1 = document.createElement('div')
+                var div2 = document.createElement('div')
                 var img = document.createElement('img')
                 img.setAttribute("src",data[i].company_logo) 
                 
                 var name = document.createElement('p')
-                name = data[i].company
+                name.innerHTML = "Company :"+" "+  data[i].company
 
                 var title = document.createElement('p')
-                title = data[i].title
+                title.innerHTML= "Title :"+" "+data[i].title
 
                 var type = document.createElement('p')
-                type = data[i].type
-                logo.append(img)
-                div.append(title,name,type)
-                div1.append(logo,div)
-               
+                type.innerHTML= "Type :"+" "+data[i].type
+
+                
+                div1.append(img)
+                div2.append(title,name,type)
+                div.append(div1,div2)
+                result.append(div)
             }
                 
-        result.append(div1)
+        
     }
                
         
