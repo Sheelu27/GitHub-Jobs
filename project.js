@@ -34,6 +34,9 @@ window.addEventListener("load", function(){
 
                 var title = document.createElement('p')
                 title.innerHTML= "Title :"+" "+data[i].title+"<hr>"
+                title.style.color ="Green"
+                title.style.fontSize ="27px"
+
 
                 var type = document.createElement('p')
                 type.innerHTML= "Type :"+" "+data[i].type+"<hr>"
@@ -46,7 +49,7 @@ window.addEventListener("load", function(){
                 Location.innerHTML= "Location :"+" "+data[i].location+"<hr>"
                 var how_to_apply = document.createElement('p')
                 how_to_apply.style.color = "green"
-                how_to_apply.innerHTML= "Wondering, How to Apply?? :"+"<hr>"+data[i].how_to_apply+"<hr>"
+                how_to_apply.innerHTML= "Wondering, How to Apply?? <u>Click the link below </u>"+"<hr>"+data[i].how_to_apply+"<hr>"
 
                 
                 div1.append(img)
