@@ -1,0 +1,73 @@
+img{
+    width:30%;
+    
+}
+html{
+    height:100%
+}
+
+
+body{
+    background-image: url(https://github.githubassets.com/images/modules/open_graph/github-octocat.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: whitesmoke;
+    border:2px solid whitesmoke;
+    padding:1%;
+
+    
+}
+#Container{
+    
+
+}
+#location{
+    width:10%;
+    background-color: floralwhite;
+    height:7%;
+    
+}
+#language{
+    margin-left: 30%;
+    width:25%;
+    background-color: floralwhite;
+    height:7%
+    
+}
+#container button{
+    background-color: brown;
+    color:white;
+    height:7%;
+    width:7%
+}
+
+h1{
+    border:1px solid black;
+    margin:auto;
+    text-align:center;
+    font-family:'Segoe UI';
+    color:white;
+    background-color: darkslategray;
+    margin-bottom: 15px;
+    
+}
+
+#res{
+    margin-left: 30%;
+}
+#res > *{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border: 1px solid black;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+#res > * > div:nth-child(1){
+    margin-right: 2%;
+    width: 30%;
+}
+img{
+    width: 100%;
+}
